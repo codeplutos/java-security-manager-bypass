@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/bypass-by-createclassloader/bypass-by-createclassloader.iml" filepath="$PROJECT_DIR$/bypass-by-createclassloader/bypass-by-createclassloader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bypass-by-reflection/bypass-by-reflection.iml" filepath="$PROJECT_DIR$/bypass-by-reflection/bypass-by-reflection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/invoke-native-method/invoke-native-method.iml" filepath="$PROJECT_DIR$/invoke-native-method/invoke-native-method.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-security-manager-bypass.iml" filepath="$PROJECT_DIR$/java-security-manager-bypass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rewrite-home-policy/rewrite-home-policy.iml" filepath="$PROJECT_DIR$/rewrite-home-policy/rewrite-home-policy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/set-security-manager/set-security-manager.iml" filepath="$PROJECT_DIR$/set-security-manager/set-security-manager.iml" />
+    </modules>
+  </component>
+</project>

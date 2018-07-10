@@ -1,0 +1,4 @@
+grant {
+    permission java.io.FilePermission "C:\\Users\\Administrator\\-", "read,write";
+};
+

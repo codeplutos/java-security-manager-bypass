@@ -1,0 +1,4 @@
+grant{
+    permission java.lang.RuntimePermission "loadLibrary.*";
+    permission java.io.FilePermission "/root/-", "read";
+};
