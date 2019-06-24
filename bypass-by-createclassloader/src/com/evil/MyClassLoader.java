@@ -7,9 +7,7 @@ import java.nio.ByteBuffer;
 import java.nio.channels.Channels;
 import java.nio.channels.FileChannel;
 import java.nio.channels.WritableByteChannel;
-import java.security.CodeSource;
-import java.security.PermissionCollection;
-import java.security.ProtectionDomain;
+import java.security.*;
 import java.security.cert.Certificate;
 
 public class MyClassLoader extends ClassLoader {
@@ -37,7 +35,9 @@ public class MyClassLoader extends ClassLoader {
 
     protected final Class<?> defineClazz(String name, byte[] b, int off, int len) throws ClassFormatError {
         try {
-            PermissionCollection pc = ClassLoader.class.getProtectionDomain().getPermissions();
+            PermissionCollection pc=new Permissions();
+            pc.add(new AllPermission());
+
             //设置ProtectionDomain
             ProtectionDomain pd = new ProtectionDomain(new CodeSource(null, (Certificate[]) null),
                     pc, this, null);
